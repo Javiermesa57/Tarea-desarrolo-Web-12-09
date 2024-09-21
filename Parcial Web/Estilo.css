@@ -1,0 +1,218 @@
+html,body {
+    margin: 0;
+	padding: 0;
+	height: 148%;
+    font-family: Arial, sans-serif;
+	text-align: Center;
+	background-IMAGE: linear-gradient(to top, #faed26, #e3f10c, #c9f500, #abf800, #86fb00, #6ced17, #4fe022, #2dd229, #2fb12f, #309131, #2f7330, #2c552c);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+H1 {
+	text-align: Center;
+	color: #FAED26;
+	background-color: #212121;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 00;
+    padding: 0;
+	
+}
+
+nav ul li {
+    display: inline;
+	
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+	
+}
+
+nav ul li a:hover {
+    background-color: #FAED26;
+	color: #212121;
+}
+
+.Productos {
+	border: 1px solid #666;
+	margin: 1em;
+	background-color: #333;
+	padding: 4em;
+	height: 10em;
+	width: 20%;
+	text-align: center;
+	color: #FAFAFA;
+	float: left
+	
+
+	
+	
+}
+	
+.Productos:hover {
+	background-color: #FAED26;
+	color: #212121;
+	
+}
+.contactos {
+	border: 1px solid #666;
+	text-align: center;
+	clear: both; 
+	background-color: #333;
+	color: #FAED26;
+	
+	
+}
+.mi-boton {
+  min-width: 130px;
+  height: 40px;
+  color: #FAED26;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #212529;
+ z-index: 1;
+}
+.mi-boton:hover:after {
+  width: 100%;
+  left: 0;
+}
+.mi-boton:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: #343a40;
+  right: 0;
+}
+.mi-boton:active {
+  top: 2px;
+}
+.pantalones {
+	border: 1px solid #666;
+	margin: 1em;
+	background-color: #333;
+	padding: 4em;
+	height: 10em;
+	width: 20%;
+	text-align: center;
+	color: #FAFAFA;
+	float: left
+	
+
+	
+	
+}
+.pantalones:hover {
+	background-color: #FAED26;
+	color: #212121;
+	
+}
+ .form {
+
+    background-color: #d11b1b;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	max-width: 400px;
+
+    width: 100%; 
+
+    margin: 20px auto; 
+
+}
+
+
+.label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #555;
+
+}
+
+
+
+.input: textarea {
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+
+.input:[type="number"]
+.input:[type="text"]
+.input:[type="email"] {
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+.button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #5cb85c;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+
+
+.button:hover {
+
+    background-color: #4cae4c;
+
+}
